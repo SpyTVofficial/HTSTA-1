@@ -1,0 +1,16 @@
+.header {
+
+}
+.header a{
+    color: #000000;
+    text-decoration: none;
+    font-family: "Roboto Thin";
+}
+.footer {
+    border: black;
+    border-style: dot-dash;
+    border-radius: 20px;
+    position: relative;
+    top: 100%;
+    text-align: center;
+}
