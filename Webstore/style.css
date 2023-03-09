@@ -1,5 +1,5 @@
 *{
-    font-family: "Roboto Thin";
+    font-family: "Roboto Thin", sans-serif;
 }
 .main{
     position: fixed;
@@ -15,6 +15,8 @@
 }
 .header{
     width: 100%;
+    position: fixed;
+    padding-right: 20px;
 }
 .header a{
     position: relative;
@@ -24,7 +26,7 @@
     text-decoration: none;
     border: #252525;
     border-style: solid;
-    border-radius: 0;
+    border-radius: 10px;
     border-width: 1px;
     border-spacing: 15px 10px;
     margin-left: 15px;
@@ -42,5 +44,37 @@
     width: 100%;
     background-color: #252525;
     color: white;
+    text-align: center;
+}
+input[type=text], select, textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+ }
+input[type=submit] {
+    background-color: #dd0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #ff0000;
+}
+.contact {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 30%;
+    padding-top: 100px;
+    text-align: center;
+}
+.submitted{
     text-align: center;
 }
