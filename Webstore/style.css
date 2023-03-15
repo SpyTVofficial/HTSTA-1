@@ -13,13 +13,12 @@
     text-align: center;
     position: fixed;
 }
-.header{
+.headerlinks{
     width: 100%;
-    position: fixed;
-    padding-right: 20px;
+    display: flex;
+    justify-content: center;
 }
-.header a{
-    position: relative;
+.headerlinks a{
     padding: 10px;
     float: right;
     color: #000000;
@@ -31,8 +30,13 @@
     border-spacing: 15px 10px;
     margin-left: 15px;
 }
-.header a:visited{
+.headerlinks a:visited{
     color: #000000;
+}
+.headericon{
+    height: 35px;
+    display: flex;
+    justify-content: flex-start;
 }
 .headeractive{
     background-color: #cccccc;
@@ -73,8 +77,21 @@ input[type=submit]:hover {
     padding: 20px;
     width: 30%;
     padding-top: 100px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .submitted{
-    text-align: center;
+    height: 100%;
+    padding: 0;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitted a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Roboto Thin';
+    color: #000000;
 }
