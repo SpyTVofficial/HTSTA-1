@@ -29,6 +29,10 @@
     border-width: 1px;
     border-spacing: 15px 10px;
     margin-left: 15px;
+    background: linear-gradient(to left, #dd0000, #ffffff);
+}
+.headerlinks a:hover{
+    background: linear-gradient(to left, #ff0000, #dddddd);
 }
 .headerlinks a:visited{
     color: #000000;
