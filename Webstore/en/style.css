@@ -1,0 +1,101 @@
+*{
+    font-family: "Roboto Thin", sans-serif;
+}
+.main{
+    position: fixed;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+.cmain{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    position: fixed;
+}
+.headerlinks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.headerlinks a{
+    padding: 10px;
+    float: right;
+    color: #000000;
+    text-decoration: none;
+    border: #252525;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-spacing: 15px 10px;
+    margin-left: 15px;
+    background: linear-gradient(to left, #dd0000, #ffffff);
+}
+.headerlinks a:hover{
+    background: linear-gradient(to left, #ff0000, #bbbbbb);
+}
+.headerlinks a:visited{
+    color: #000000;
+}
+.headericon{
+    height: 35px;
+    display: flex;
+    justify-content: flex-start;
+}
+.headeractive{
+    background: linear-gradient(to left, #bb0000, #dddddd);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #252525;
+    color: white;
+    text-align: center;
+}
+input[type=text], select, textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+ }
+input[type=submit] {
+    background-color: #dd0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #ff0000;
+}
+.contact {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 30%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.submitted{
+    height: 100%;
+    padding: 0;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitted a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Roboto Thin';
+    color: #000000;
+}

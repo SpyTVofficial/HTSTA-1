@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+<div class="header">
+    <div class="headerlinks">
+        <img class="headericon" src="logo.png" alt="logo">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Our Products</a>
+        <a href="contact.html" class="headeractive">Contact</a>
+    </div>
+</div>
+<div class="cmain">
+    <h1>Contact</h1>
+</div>
+<div class="contact">
+    <form action="submit.html">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Your first name...">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="lu">Luxembourg</option>
+            <option value="be">Belgium</option>
+            <option value="de">Germany</option>
+            <option value="nl">Netherlands</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<div class="footer">
+    <p>Made with <3 by your kids :)</p> <br>
+    <p><b>Disclaimer: NOT A REAL STORE</b></p>
+</div>
+</body>
+</html>
