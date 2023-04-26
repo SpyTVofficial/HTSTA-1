@@ -11,28 +11,30 @@
     text-align: center;
 }
 .langsel{
+    position: relative;
     display: flex;
     justify-content: space-around;
 }
 .langsel a{
+    position: relative;
     text-decoration: none;
     color: #000000;
 }
 .langeng img{
     display: none;
+    right: 40%;
 }
 .langeng:hover img{
     display: block;
     position: relative;
-    right: 40%;
 }
 .langde img{
     display: none;
+    right: 40%
 }
 .langde:hover img{
     display: block;
     position: relative;
-    right: 40%;
 }
 ul {
     list-style-type: none;
